@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>图片懒加载示例-simple</title>
+<script src="jquery.1.7.1.min.js"></script>
+<script src="jquery.lazyload.js"></script>
+<script src="specialScrollEvents.js"></script>
+<script>
+$(function(){
+	$(".lazyloadDemo img").lazyload();
+	$("#showBtn").click(function(){
+		$(".lazyloadDemo").show();
+		});
+	})
+</script>
+<style>
+.lazyloadDemo { width:710px;}
+.lazyloadDemo img { background:url(img/pic_loading.gif) center center no-repeat; border:1px solid #CCC;}
+</style>
+</head>
+
+<body>
+<button id="showBtn">Show</button>
+<div class="lazyloadDemo" style="display:none;">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/bradypus-3.jpg" width="688" height="300">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/bradypus-2.jpg" width="688" height="300">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/atmega32u4.jpg" width="688" height="300">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/bradypus.jpg" width="688" height="300">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/rgbleds.jpg" width="688" height="300">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/4x4-1.png" width="688" height="258">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/facebook.png" width="688" height="203">
+	<img src="img/lazyload_placeholder.gif" data-original="http://www.appelsiini.net/attachments/5000px.png" width="540" height="145">
+</div>
+</body>
+</html>

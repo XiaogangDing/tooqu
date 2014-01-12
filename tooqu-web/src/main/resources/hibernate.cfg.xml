@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://192.168.41.254:3306/tooqu?useUnicode=yes</property>
+        <property name="connection.username">tooqu</property>
+        <property name="connection.password">tooqu</property>
+        <property name="connection.pool_size">1</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+        <mapping class="com.tooqu.entity.Accompany"/>
+        <mapping class="com.tooqu.entity.User"/>
+        <mapping class="com.tooqu.entity.AccompanyComment"/>
+        <mapping class="com.tooqu.entity.AccompanyParticipateRecord"/>
+        <mapping class="com.tooqu.entity.Album"/>
+        <mapping class="com.tooqu.entity.Article"/>
+        <mapping class="com.tooqu.entity.ArticleComment"/>
+        <mapping class="com.tooqu.entity.Check"/>
+        <mapping class="com.tooqu.entity.Gift"/>
+        <mapping class="com.tooqu.entity.LocalTravel"/>
+        <mapping class="com.tooqu.entity.LocalTravelParticipateRecord"/>
+        <mapping class="com.tooqu.entity.Message"/>
+        <mapping class="com.tooqu.entity.Picture"/>
+        <mapping class="com.tooqu.entity.Place"/>
+        <mapping class="com.tooqu.entity.Report"/>
+        <mapping class="com.tooqu.entity.SendGift"/>
+        <mapping class="com.tooqu.entity.UserAuthority"/>
+        <mapping class="com.tooqu.entity.UserInfo"/>
+        <mapping class="com.tooqu.entity.Visit"/>
+    </session-factory>
+    
+</hibernate-configuration>

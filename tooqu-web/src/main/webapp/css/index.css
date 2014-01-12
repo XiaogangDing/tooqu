@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* index.css */
+.siteNavBar .iasideCont .asideSections a,.myTravalPlan .iasideCont .indexSearch .submit,.indexJieban .woyaojieban,.indexHotTreval h2,.view-pro-details,.pro-show-money,.indexHotTreval .shengQXianL,.indexHotTreval .indexProTabsNav a{ background-image:url(../images/indexicon.png); _background-image:url(../images/indexicon.gif); background-repeat:no-repeat;}
+/*side bar*/
+.nearlyTravels-border.siteNavBar { border:1px solid #ffba94 !important;; position:relative; top:-1px;}
+.nearlyTravels-border.siteNavBar .siteNavShadow { display:block; position:absolute; left:0; bottom:-15px; width:239px; height:14px; background:url(../images/pagenavbottombg.jpg) left top  no-repeat;}
+.nearlyTravels-border.siteNavBar .iasideCont { padding:0 !important;}
+.nearlyTravels-border.siteNavBar .iasideCont .asideSecTitle { border-bottom-width:0; padding-left:26px; background-position:10px -306px;}
+.nearlyTravels-border.siteNavBar .iasideCont .asideSecTitle h3{ background-position:118px -32px;}
+.nearlyTravels-border.siteNavBar .iasideCont .asideSections { padding:0;}
+.nearlyTravels-border.siteNavBar .iasideCont .asideSections a { display:block; height:38px; line-height:38px; border-top:1px solid #ffd4bd; padding-left:40px; color:#b56d25;}
+/*default*/
+.siteNavBar .iasideCont .asideSections a.dangji { background-position:-241px 1px;}
+.siteNavBar .iasideCont .asideSections a.zhuti { background-position:-241px -38px;}
+.siteNavBar .iasideCont .asideSections a.haibian { background-position:-241px -76px;}
+.siteNavBar .iasideCont .asideSections a.guonei { background-position:-241px -114px;}
+.siteNavBar .iasideCont .asideSections a.yazhou { background-position:-241px -152px;}
+.siteNavBar .iasideCont .asideSections a.ouzhou { background-position:-241px -190px;}
+.siteNavBar .iasideCont .asideSections a.qitazhou { background-position:-241px -229px;}
+/*hover*/
+.nearlyTravels-border.siteNavBar .iasideCont .asideSections a:hover { text-decoration:none; }
+.siteNavBar .iasideCont .asideSections a.dangji:hover { background-position:0px 1px;}
+.siteNavBar .iasideCont .asideSections a.zhuti:hover { background-position:0px -38px;}
+.siteNavBar .iasideCont .asideSections a.haibian:hover { background-position:0px -76px;}
+.siteNavBar .iasideCont .asideSections a.guonei:hover { background-position:0px -114px; background-color:#fedfc3;}
+.siteNavBar .iasideCont .asideSections a.yazhou:hover { background-position:0px -152px;}
+.siteNavBar .iasideCont .asideSections a.ouzhou:hover { background-position:0px -190px;}
+.siteNavBar .iasideCont .asideSections a.qitazhou:hover { background-position:0px -229px;}
+
+/*myTravalPlan*/
+.nearlyTravels-border.myTravalPlan { background:url(../images/clips.jpg) 3px 33px no-repeat;}
+.nearlyTravels-border.myTravalPlan .iasideCont .asideSecTitle { border-bottom-width:0;}
+.myTravalPlan .iasideCont form { padding-top:8px;}
+.myTravalPlan .iasideCont label { margin-right:10px;}
+.myTravalPlan .iasideCont .radio { margin-left:4px; position:relative; top:2px;}
+.myTravalPlan .iasideCont .indexSearch { padding-top:15px; padding-bottom:20px;}
+.myTravalPlan .iasideCont .indexSearch .text { height:22px; width:142px; padding-left:4px; line-height:22px; border:1px solid #c9c9c9;}
+.myTravalPlan .iasideCont .indexSearch .submit { width:63px; height:24px; cursor:pointer; background-position:0 -320px;}
+
+/*gaoduanDaoyou*/
+.nearlyTravels-border.gaoduanDaoyou {}
+.nearlyTravels-border.gaoduanDaoyou .iasideCont .asideSecTitle h3{ background-position:110px -32px;}
+.nearlyTravels-border.gaoduanDaoyou .iasideCont td { vertical-align:top; padding:4px 0 10px;}
+.nearlyTravels-border.gaoduanDaoyou .iasideCont td img { border:1px solid #c9c9c9;}
+.nearlyTravels-border.gaoduanDaoyou .iasideCont td a { font-weight:bold;}
+.nearlyTravels-border.gaoduanDaoyou .iasideCont td p { width:134px; white-space:nowrap; overflow:hidden; text-overflow: ellipsis;}
+.nearlyTravels-border .indexMore{ display:block; padding-bottom:8px; color:#2c768c; font-weight:bold; font-size:14px;}
+
+/*taZhouKan*/
+.nearlyTravels-border.taZhouKan {}
+.nearlyTravels-border.taZhouKan .iasideCont .asideSecTitle h3 { background-position:60px -32px;}
+.nearlyTravels-border.taZhouKan .iasideCont td h4 { font-size:16px; line-height:28px;}
+.nearlyTravels-border.taZhouKan .iasideCont td p { white-space:nowrap;}
+.nearlyTravels-border .indexMore.slider { margin-top:8px; padding-top:6px; border-top:1px solid #ddd;}
+
+/*indexJieban*/
+.nearlyTravels-border.indexJieban { position:relative;}
+.nearlyTravels-border.indexJieban .woyaojieban { position:absolute; top:8px; right:12px; display:block; width:72px; height:20px; overflow:hidden; text-indent:-999px; background-position:-83px -320px;}
+.nearlyTravels-border.indexJieban dd { padding-left:12px; width:200px; white-space:nowrap; overflow:hidden; text-overflow: ellipsis; line-height:24px; background:url(../images/jiebandot.jpg) 3px center no-repeat;}
+
+/*indexBanner*/
+.indexBanner { margin:20px 0;}
+.indexAdv { margin-bottom:20px;}
+
+/*indexHotTreval*/
+.indexHotTreval { position:relative; }
+.indexHotTreval h2 { padding-left:18px; background-position:-452px -280px; font-size:15px; margin-bottom:5px;}
+.indexHotTreval .shengQXianL { position:absolute; top:10px; right:0; width:114px; height:36px; overflow:hidden; text-indent:-999px; background-position:0  -278px;}
+
+/*indexProTabsNav*/
+.indexHotTreval .indexProTabsNav { height:38px; background:url(../images/navtabsorangebg.jpg) left top repeat-x;}
+.indexHotTreval .indexProTabsNav a { float:left; text-decoration:none; text-align:center; display:inline-block; height:38px; line-height:28px; width:97px; background-position:0 -383px; margin-right:3px;}
+.indexHotTreval .indexProTabsNav a.current { background-position:-112px -384px;}
+
+/*searchTrevalers*/
+.nearlyTravels-border.searchTrevalers { background-color:#fffde4;}
+.nearlyTravels-border.searchTrevalers .asideSecTitle { border-bottom-width:0;}
+.nearlyTravels-border.searchTrevalers .indexMore.slider { border-color:#fffef8; margin:0;}
+.nearlyTravels-border.searchTrevalers .instru { padding:15px 4px 10px; border-bottom:1px solid #e6d9be; color:#987646;}
+.nearlyTravels-border.searchTrevalers #advSlideshow { width:230px; margin:0 auto;}
+
+/*indexBanner*/
+#indexBanner{ height:280px; width:720px; position:relative; overflow:hidden;}
+#indexBanner #bigPic li{ position:absolute; top:0; left:0; display:none; width:100%; overflow:hidden;}
+#indexBanner #thumbs { width:100%; height:32px; left:0; bottom:0; z-index:3; position:absolute; text-align:right;}
+#indexBanner #thumbs div { display:block; height:32px; z-index:7; width:100%; position:absolute; top:0; left:0; background-color:#000; opacity:0.2; filter:alpha(opacity=20);}
+#indexBanner #thumbs a { position:relative; z-index:9; display:inline-block; margin:12px 10px 0 0px; width:18px; height:8px; overflow:hidden; background-color:#ffa954;}
+#indexBanner #thumbs a.active{ background-color:#fff;}
+
+/* pro-show */
+.indexHotTreval .pro-show { border-top:1px dashed #d8d8d8; padding-top:20px; margin-bottom:20px;}
+.indexProTabsCont .indexTabsCont .pro-show:first-child { border-top-width:0; padding-top:12px;}
+.indexProTabsCont .indexTabsCont .pagination { border-top:1px solid #ddd;}
+.pro-show-detail{  width:350px; padding-left:20px;}
+.pro-show-title{ font-size:18px; color:#f47723;}
+.pro-show-cont{border-left:1px solid #b6b6b6; padding-left:8px; margin:10px 0;}
+.pro-show-cont .head-img{ background:url(../images/icon-member.png) no-repeat; padding-left:20px; font-weight:bold; margin-right:10px;}
+.pro-show-cont em{ font-weight:bold;}
+.pro-show-cont .eval-num{ margin-right:10px; font-weight:bold;}
+.pro-show-text{ text-indent:24px; color:#a1a1a1;}
+.view-details{ margin-left:15px;}
+.view-pro-details{ background-position:-129px -278px; width:129px; height:36px; display:block; text-indent:-999em; }
+.pro-show-money{ background-position:-280px -278px; padding:12px 15px 0px 14px; text-align:center; margin-top:40px; width:90px; margin-left:8px; *height:28px; *padding:10px 15px 2px 14px; *line-height:30px;}
+.pro-show-money span{ color:#f47723;}
+.tourist-intro{ border-top:4px solid #d8d8d8; border-left:1px solid #d8d8d8; border-right:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8;}
+
+/*bottomPlaceTable*/
+.bottomPlaceTable { border:4px solid #d8d8d8; border-width:4px 1px 1px; margin:15px 0 25px;}
+.bottomPlaceTable table { border-collapse:separate;}
+.bottomPlaceTable th { background-color:#f1f1f1; font-size:15px; font-weight:bold;}
+.bottomPlaceTable td { padding:5px 15px 15px;}
+.bottomPlaceTable td a { display:inline-block; padding:10px 10px 0px 0;}
+
+/*backTopBtn*/
+#container .backTopBtn { position:fixed; _position:absolute; bottom:260px; left:50%; margin-left:500px;}
+
+/*tooquService*/
+.tooquService table th { text-align:left;}
+.tooquService table th strong { padding-left:30px;}
+.tooquService table .contTD { padding:10px 0 10px 50px;}
+.tooquService table .contTD table{ border-left:2px dotted #d8d8d8;}
+.tooquService table .contTD table td { padding:2px 0 2px 14px;}
+.tooquService table .contTD table td img { position:relative; top:2px; left:4px;}
+
+/*inner page*/
+/*bg*/
+.jingQueSou .submit,.innerAsideFilter .searchFliter { background-image:url(../images/resaultpage.png); background-repeat:no-repeat;}
+/*end*/
+.nearlyTravels-border.innerAsideFilter { margin-top:20px;}
+.nearlyTravels-border.innerAsideFilter table td { height:30px;}
+.innerAsideFilter .searchFliter { background-position:0 0; width:114px; height:36px; cursor:pointer;}
+/*jingQueSou*/
+.nearlyTravels-border.borderNone.jingQueSou { margin-bottom:0px; background-color:#f3f3f3; border-top:1px dashed #d8d8d8;}
+.nearlyTravels-border.borderNone.jingQueSou .asideSecTitle { border-bottom-width:0;}
+.jingQueSou form { width:218px; height:30px; top:-3px; position:relative;}
+.jingQueSou .text { width:182px; height:28px; padding-right:30px; padding-left:4px; background-color:#fff; border:1px solid #d8d8d8; line-height:28px; font-size:11px;}
+.jingQueSou .submit { position:absolute; right:0; top:1px; width:31px; height:28px; cursor:pointer; background-position:-128px 0;} 
+
+/**/
+.nearlyTravels-border.searchTrevalers.innerAsideTrevalers { background-color:#fff;}
+.indexMore.slider.colorOrange { font-weight:normal; color:#ff8a00; padding-left:10px;}
+
+/*goAplan*/
+.nearlyTravels-border.goAplan .asideSections td { height:24px;}
+.goAplan td { text-align:center;}
+
+/*innerPagebanner*/
+.innerPagebanner { margin-top:20px; margin-bottom:10px;}
+.nearlyTravels-border.borderNone.searchResaultTitle { margin-bottom:0;}
+.nearlyTravels-border.borderNone.searchResaultTitle .asideSecTitle { border-bottom-width:0;background-position: 3px -308px; height:30px;}
+.nearlyTravels-border.borderNone.searchResaultTitle .asideSecTitle span { color:#db6d00; font-size:15px; line-height:30px;}
+.order-style.innerPageFilterResault { margin:0;}
+.order-style.innerPageFilterResault .order-style-title { padding:8px 5px; background-color:#f3f3f3;}
+.order-style .order-style-title .fliterTime03 { background-color:#db6d00;}
+.order-style .order-style-title .fliterTime03 span { background-position:-117px -546px;}
+
+/*searchFilterList*/
+.searchFilterResaultSec .searchFilterList { color:#333;}
+.searchFilterResaultSec .searchFilterList li { float:left; width:100%; margin-top:20px; padding-top:20px; border-top:1px dashed #d8d8d8;}
+.searchFilterResaultSec .searchFilterList li:first-child { border-top:1px dashed #fff; margin:0;}
+.searchFilterResaultSec .searchFilterList li .hPics { width:130px;}
+.searchFilterResaultSec .searchFilterList li .name { width:200px;}
+.searchFilterResaultSec .searchFilterList li .discriptions { width:385px;}
+.searchFilterResaultSec .searchFilterList li .discriptions p { margin-top:5px;}
+.searchFilterResaultSec .searchFilterList strong.colorOrange { padding-right:54px; font-size:14px;}
+.searchFilterResaultSec .searchFilterList .job { color:#f0a000;}
+.searchFilterResaultSec .searchFilterList .job img { position:relative; top:3px;}
+.searchFilterResaultSec .searchFilterList .details { padding-top:5px;}
+.searchFilterResaultSec .searchFilterList li .gaoduan01 { position:relative; top:4px;}
+.searchFilterResaultSec .pagination { margin-top:20px; border-top:1px solid #ddd;}
+
+

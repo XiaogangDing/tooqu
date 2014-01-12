@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="master"
+                template="/WEB-INF/templates/master.jsp">
+        <put-attribute name="title" type="string" value="Too qu travel" />
+        <put-attribute name="styles" type="template"
+                       value="/WEB-INF/templates/styles.jsp" />
+        <put-attribute name="header" type="template"
+                       value="/WEB-INF/templates/header.jsp" />
+        <put-attribute name="footer" type="template"
+                       value="/WEB-INF/templates/footer.jsp" />
+    </definition>
+    <definition name="accompany" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/accompany.jsp" />
+    </definition>
+    <definition name="accompany-create" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/accompany-create-step1.jsp" />
+    </definition>
+    
+    
+    <definition name="accompany-detail" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/accompany-other-detail.jsp" />
+    </definition>
+    
+    <definition name="accompany-edit" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/accompany-edit.jsp" />
+    </definition>
+    
+    <definition name="register-step1" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-step1.jsp" />
+    </definition>
+    
+    <definition name="register-step2" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-step2.jsp" />
+    </definition>
+    
+    <definition name="email-active" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-email-active.jsp" />
+    </definition>
+    
+     <definition name="register-success" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-success.jsp" />
+    </definition>
+    
+    <definition name="login" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/login.jsp" />
+    </definition>
+    
+    <definition name="homepage" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/homepage.jsp" />
+    </definition>
+    <definition name="register-image-upload" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-image-upload.jsp" />
+    </definition>
+    <definition name="advanceSearch" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/search-result.jsp" />
+    </definition>
+    <definition name="register-image-upload" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/register-image-upload.jsp" />
+    </definition>
+    
+    <definition name="file-upload"
+                template="/WEB-INF/views/file-upload.jsp">
+    </definition>    
+    
+    <definition name="article-edit" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/article-edit.jsp" />
+    </definition>
+    
+    <definition name="article-audit" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/article-audit.jsp" />
+    </definition>
+    
+    <definition name="article-modify" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/article-modify.jsp" />
+    </definition>
+    
+    <definition name="article-sended" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/article-sended.jsp" />
+    </definition>
+    
+    <definition name="article-detail" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/article-detail.jsp" />
+    </definition>
+
+    <definition name="advance-user" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/test.jsp" />
+    </definition>
+    
+    <definition name="search-result" extends="master">
+        <put-attribute name="content" type="template"
+                       value="/WEB-INF/views/search-result.jsp" />
+    </definition>
+    
+    <definition name="follow" extends="master">
+    <put-attribute name="content" type="template"
+                   value="/WEB-INF/views/follow.jsp" />
+    </definition>
+</tiles-definitions>

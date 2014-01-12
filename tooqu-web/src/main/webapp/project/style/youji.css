@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*background*/
+.youjiCrumbs a ,.youjiCrumbs span,.youjiPingLunCont li .guanzhu,.youjiPingLunCont li .weizhixinxi .trtr,.articleAuthorDetails .cusPhotoBg  .font12,.articleAuthorDetails .zhanghaoDetails .colorOrange,.articleAuthorDetails .zhanghaoDetails .dangAn,.articleAuthorDetails .zhanghaoDetails .faTa,.youjiFabuSelf .yiJshoucang { background-image:url(../images/youji.png); background-repeat:no-repeat;}
+
+/*youjiFaBu*/
+.youjiFaBu { margin-top:15px;}
+.youjiFaBu .youjiFaBuTextArea td,.youjiFaBu .youjiFaBuTextArea th { padding:2px 0 14px;} 
+.youjiFaBu .youjiFaBuTextArea td .text { display:block; height:24px; width:662px; font-size:14px; padding-left:4px; border:3px solid #eee; line-height:24px;}
+.youjiFaBu .youjiFaBuTextArea .submit { margin-right:10px;}
+.youjiFaBu .youjiFaBuTextArea .ruheFaBu { position:relative; top:8px;}
+
+/*helpCont*/
+.youjiFaBuHelp .helpCont { margin-top:36px; border:1px solid #e7e7e7; background-color:#f3f3f3;padding-bottom:10px;}
+.youjiFaBuHelp .helpCont h4 { line-height:30px; height:30px; text-indent:8px; background-color:#999; color:#fff; font-size:14px;}
+.youjiFaBuHelp .helpCont p { padding-left:30px; padding-bottom:4px; padding-right:10px;}
+.youjiFaBuHelp .helpCont p span{ display:block;}
+.youjiFaBuHelp .helpCont p strong { line-height:28px;}
+.youjiFaBuHelp .helpCont p.pics { background:url(../images/uploadpics.png) 10px 6px no-repeat;}
+.youjiFaBuHelp .helpCont p.howIt { background:url(../images/quickxieyouji.jpg) 10px 6px no-repeat;}
+
+/*.youjiCrumbs*/
+.youjiCrumbs { line-height:24px; margin:18px 0 15px;}
+.youjiCrumbs a,.youjiCrumbs span { float:left; height:24px; display:inline-block; padding:0 14px 0 26px;}
+.youjiCrumbs span { padding-left:14px; background-position:-465px top;}
+.youjiCrumbs a { background-position:-465px top; background-color:#dfdfdf;}
+.youjiCrumbs a:first-child{ background-image:none; padding-left:12px;}
+/*youjiTitle*/
+.youjiTitle { margin-bottom:16px;}
+
+/*articleAuthorDetails*/
+.articleAuthor{ position:relative;}
+.articleAuthorDetails { position:absolute; top:-6px; left:-4px; width:238px; border:1px solid #e7e7e7; background-color:#f3f3f3;}
+.articleAuthorDetails .cusPhotoBg { padding:5px 5px 8px;}
+.articleAuthorDetails .cusPhotos { display:inline-block; padding:2px; background-color:#fff; border:1px solid #d8d8d8; height:58px; width:58px;}
+.articleAuthorDetails .cusPhotoBg  .font12 { margin-top:3px; position:relative; left:-1px; background-position: 0 -80px;color: #FFFFFF;height: 13px;line-height: 12px;width: 64px;}
+.articleAuthorDetails .zhanghaoDetails { width:145px; margin-left:10px; font-size:12px;}
+.articleAuthorDetails .zhanghaoDetails .colorOrange { display:inline-block; padding-right:26px; width:4.5em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; background-position:-404px -40px;}
+.articleAuthorDetails .zhanghaoDetails p.fix { margin:1px 0;}
+.articleAuthorDetails .zhanghaoDetails p span { display:inline-block;}
+.articleAuthorDetails .zhanghaoDetails .dangAn{ padding-left:24px; background-position:0 -127px; color:#eda000;}
+.articleAuthorDetails .zhanghaoDetails div.fix { margin-top:5px;}
+.articleAuthorDetails .zhanghaoDetails .faTa { width:65px; height:25px;}
+.articleAuthorDetails .zhanghaoDetails .yiguanzhu { background-position:-96px 0; }
+.articleAuthorDetails .zhanghaoDetails .fasixin { background-position:-175px 0; }
+
+/*articleAuthorDetails table*/
+.articleAuthorDetails table td { background-color:#e7e7e7; vertical-align:middle; text-align:center; font-size:12px;}
+.articleAuthorDetails table td a { display:block; line-height:14px;}
+.articleAuthorDetails .jiebanJiHua { font-size:12px; line-height:20px; padding:6px 0 10px 14px;}
+
+/*jiebanFabuInfo youjiFabuSelf*/
+.jiebanFabuInfo.youjiFabuSelf,.jiebanFabuInfo.youjiFabuSelf .jiebanFabuInfoTable{ padding:0; border-width:0; background-color:#fff;}
+.jiebanFabuInfo.youjiFabuSelf .jiebanFabuInfoTable { margin-bottom:30px; position:relative;}
+.jiebanFabuInfo.youjiFabuSelf .jiebanFabuInfoTable td { min-height:1px;}
+.jiebanFabuInfo.youjiFabuSelf .jiebanFabuInfoTable td .cusPhoto { margin:0 auto 6px;}
+
+/*youjiContTitle*/
+.youjiFabuSelf .youjiContTd { padding-left:4px;}
+.youjiFabuSelf .youjiContTitle { height:36px; line-height:36px; background-color:#f3f3f3; padding:0 8px 0 5px;}
+.youjiFabuSelf .youjiContTitle .timer { margin-left:12px;}
+.youjiFabuSelf .youjiContTitle .flr a { margin-left:10px;} 
+
+/*youjiContArticle*/
+.youjiFabuSelf .youjiContArticle { width:100%; overflow-x:hidden;}
+.youjiFabuSelf .youjiContArticle p { margin:8px 0;}
+.youjiFabuSelf .youjiContJiFen fieldset { padding:3px 12px 15px; border:1px solid #d8d8d8; width:540px;}
+.youjiFabuSelf .youjiContJiFen fieldset legend { margin-left:3px; margin-rightt:3px;}
+.youjiFabuSelf .youjiContJiFen fieldset .jingpin { margin:0 0 0 20px;}
+
+/*pingLunContTitle*/
+.pingLunContTitle { background:url(../images/pinglunconttitle.png) left top repeat-x #f4f4f4; margin-bottom:5px;}
+.pingLunContTitle strong { display:inline-block; line-height:28px; padding:0 6px 0 8px; background-color:#fff; border-top:3px solid #ff7300;}
+
+/*.jieBanfabuPlun .pingLunCont li*/
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li { padding-left:80px; padding-bottom:50px; border-bottom-style:solid;}
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li .buttons { top:8px;}
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li .pics { position:absolute; top:14px; left:5px;}
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li .guanzhu { display:block; height:13px; width:38px; margin:0px auto;background-position:0 -35px;}
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li .huifuSec { position:absolute; right:6px; bottom:2px;}
+.jieBanfabuPlun .pingLunCont.youjiPingLunCont li .huifuSec a { text-decoration:underline;}
+.youjiPingLunCont li .weizhixinxi .trtr { margin-left:14px; padding-left:13px;}
+.youjiPingLunCont li .weizhixinxi .trtr.diliweizhi { background-position:1px -254px;}
+.youjiPingLunCont li .weizhixinxi .trtr.shijian { background-position:1px -189px;}
+.woYaoPinL { display:block; background:url(../images/pinglunconttitle.png) left top repeat-x #f4f4f4; height:28px; line-height:28px; padding-top:2px;}
+
+/*xiangGuanMD*/
+.xiangGuanMD { border:1px solid #d8d8d8; background-color:#f3f3f3; text-align:center; margin-bottom:20px;}
+.xiangGuanMD .title { line-height:42px; font-size:14px; font-weight:bold;}
+.xiangGuanMD div { width:230px; margin:0 auto; padding-bottom:10px;}
+.xiangGuanMD div p { line-height:30px; background-color:#fff; margin-bottom:10px;} 
+.xiangGuanMD div .orangeBtns{ display:inline-block; color:#fff; text-decoration:none;}
+
+/*nearlyTravels-border youjiFMcurrent*/
+.nearlyTravels-border.youjiFMcurrent {}
+.nearlyTravels-border.youjiFMcurrent h3{ background-position: 100px -32px;}
+.youjiFMcurrent .fMian{ padding: 8px 0;}
+.youjiFMcurrent .fMiana { display:block; width:220px; padding:6px 0 10px; border-top:1px solid #d8d8d8; margin:0  auto;}
+.youjiFMcurrent .fMiana span { padding-left:18px; background:url(../images/shezhifm.png) left 1px no-repeat;}
+
+/*shenQingVIP*/
+.shenQingVIP { width:614px; padding:15px 0; border-top:1px dashed #c8c8c8; margin:-10px auto 0;}
+.shenQingVIP div { line-height:34px; font-size:14px; padding:12px 0; text-align:center; border:1px solid #ff8888; width:322px; margin:0 auto;}
+
+/*yi jian shou cang*/
+.youjiFabuSelf .yiJshoucang { position:absolute; top:-28px; right:0px; height:23px; width:84px;}
+.youjiFabuSelf .faBuXinyouji { position:absolute; top:-30px; right:-115px;}
+
+

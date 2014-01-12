@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*base*/
+body { font:12px/1.6em '微软雅黑'; color:#666; background-color:#fff;}
+/* links */
+a { color:#666666; text-decoration:none;}
+a:hover { color:#ff7300; text-decoration:underline;}
+
+/* global - sections -style */
+#header { position:relative; z-index:5; height:148px;}
+.iheader { position:relative; width:980px; height:115px; margin:0 auto;}
+#container { position:relative; z-index:3; width:980px; margin:0 auto;}
+.icontainer {}
+.cont-main-left{ width:720px;}
+.cont-main-right{ width:240px;}
+#footer { width:980px; margin:20px auto 0;}
+
+/*background-elment*/
+.search input.searchBtn,.nav ul .currentPage a,.nav a:hover,.focusUs a,.copyright .flr .division,.userMessages .messageIcon,.iheader .subArrow,.auto-userMessages .auto-userMessages-close,.userSystem .userSystemIcon,.pageConfirm .pageConfirmClose,.grayBtns { background-image:url(../images/theme.png); background-repeat:no-repeat;}
+
+/* header */
+#header .iheader a:hover { text-decoration:none;}
+/*quickMenu*/
+#header .quickMenu { height:32px; width:100%; line-height:32px; color:#999; border-bottom:1px solid #e3e3e3; background-color:#ececec;}
+#header .quickMenu .iQuickMenu { width:980px; margin:0 auto;}
+#header .quickMenu .iQuickMenu a { margin-right:10px;}
+/*logo*/
+#header .logo { position:absolute; top:0; left:0; width:170px; height:64px; overflow:hidden;}
+#header .logo a { display:block; width:100%; height:64px; text-indent:-999px; background:url(../images/logo.jpg) left top no-repeat;}
+/*fliterSearch*/
+#header .fliterSearch { position:absolute; top:22px; right:0; width:606px;}
+#header .fliterSearch .search { position:relative; width:538px; height:25px; border:4px solid #ff5a00;}
+#header .fliterSearch .search li input { height:25px; width:470px; padding-left:4px; line-height:24px; *height:24px;}
+#header .fliterSearch .search input.searchBtn { position:absolute; top:-1px; right:-1px; width:57px; height:28px; font-size:14px; font-weight:bold; line-height:28px; text-indent:23px; text-align:left; color:#fff; background-position:-109px -37px; cursor:pointer;}
+#header .fliterSearch .advanced { position:absolute; top:-1px; right:0;} 
+#header .fliterSearch .advanced a { line-height:18px;}
+/*nav*/
+#header .nav { position:absolute; left:0; bottom:0; height:35px; width:100%; background:url(../images/navbottombg.jpg) left bottom repeat-x;}
+#header .nav ul li { float:left; margin-right:1px;}
+#header .nav ul a { display:inline-block; width:90px; height:31px; text-align:center; font-size:16px; font-weight:bold; line-height:32px; color:#ff7300; text-decoration:none; background-position:0 -80px;}
+#header .nav ul li.currentPage a{ color:#fff;}
+#header .nav a:hover { color:#fff;}
+/*userMessages*/
+#header .userMessages { position:absolute; top:86px; right:106px; height:30px;}
+#header .userMessages.userMessagesTips { *top:85px;}  
+#header .userMessages .messageIcon { display:inline-block; height:16px; line-height:16px; padding-right:21px; background-position:-255px -40px;}
+/*sub-userMessages*/
+.userMessages .sub-userMessages { position:absolute; top:25px; left:-50px; width:138px; border:1px solid #808080; background-color:#fff;}
+.userMessages .sub-userMessages ul { padding:2px; *padding:2px 2px 0;}
+.userMessages .sub-userMessages li { line-height:24px; height:24px; overflow:hidden; border-top:1px dashed #dedede;}
+.userMessages .sub-userMessages li:first-child,.userMessages .sub-userMessages li.firstchild { border-top-width:0;}
+.userMessages .sub-userMessages li a { display:block; text-indent:10px;}
+.userMessages .sub-userMessages li a:hover { background-color:#dadada; color:#666;}
+.userMessages .sub-userMessages .subArrow { position:absolute; left:68px; top:-8px; width:14px; height:8px; overflow:hidden; background-position:-183px -40px; background-color:#fff;}
+/*auto-userMessages*/
+.userMessages .auto-userMessages { display:block;}
+.userMessages .auto-userMessages ul { padding-top:16px;}
+.userMessages .auto-userMessages li span { display:inline-block; width:70px; padding-left:10px;}
+.userMessages .auto-userMessages li a{ display:inline-block; color:#0967b0;}
+.userMessages .auto-userMessages li a:hover { background-color:transparent; color:#FF7300;}
+.userMessages .auto-userMessages .auto-userMessages-close { position:absolute; width:7px; height:7px; overflow:hidden; top:5px; right:5px; background-position:-187px -73px; }
+.userMessages .auto-userMessages .auto-userMessages-close:hover { background-position:-187px -58px;}
+/*userSystem*/
+#header .userSystem { right:0; width:100px;}
+.userSystem .sub-userMessages { left:auto; right:0;}
+.userSystem .userSystemIcon { float:right; display:inline-block; width:4em; height:16px; line-height:16px; padding-right:19px; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; background-position:-234px -76px;}
+.userSystem .sub-userMessages .subArrow { right:10px; left:auto;}
+.userSystem .userPhotoMini { position:absolute; left:9px; top:-1px;}
+.userSystem .division { position:absolute; top:1px; left:1px; height:12px; width:1px; overflow:hidden; background-color:#6b6b6b;}
+
+/* footer */
+.focusUs { line-height:16px; padding-bottom:7px; border-bottom:1px solid #e6e6e6;}
+.focusUs a { display:inline-block; height:16px; width:16px; margin-right:5px;}
+.focusUs a:hover { text-decoration:none;}
+.focusUs .weibo { background-position:0 -53px;}
+.focusUs .weibo:hover { background-position:0 -37px;}
+.focusUs .renren { background-position:-21px -53px;}
+.focusUs .renren:hover { background-position:-21px -37px;}
+.focusUs .qzone { background-position:-42px -53px}
+.focusUs .qzone:hover { background-position:-42px -37px;}
+.focusUs .kaixin { background-position: -63px -53px;}
+.focusUs .kaixin:hover { background-position:-63px -37px;}
+.focusUs .qqweibo { background-position: -84px -53px;}
+.focusUs .qqweibo:hover { background-position:-84px -37px;}
+/*copyright */
+.copyright { padding:10px 0; line-height:34px;}
+.copyright .fll { width:495px; font-size:11px;}
+.copyright .fll span { margin-right:10px;}
+.copyright .flr { width:480px; text-align:right; padding-right:4px;}
+.copyright .flr .division { display:inline-block; width:24px; background-position:-107px -78px;}
+
+/*pageConfirm*/
+.coverLayer { position:fixed; height:100%; width:100%; left:0; top:0; z-index:7; background-color:#000; opacity:0.3; filter:Alpha(Opacity=30); _display:none; _position:absolute; _left:-1000px; _top:-1000px;}
+.pageConfirm { position:fixed; top:50%; left:50%; width:340px; height:180px; z-index:9; _position:absolute; font-size:14px;}
+.pageConfirm .ipageConfirm { position:relative; left:-50%; top:-50%; width:100%; height:100%; border:1px solid #ddd; background-color:#fff;}
+.pageConfirm .pageConfirmTitle { height:34px; line-height:34px; background-color:#dadada; color:#666666; font-weight:bold; text-indent:15px; font-size:14px;}
+.pageConfirm .pageConfirmClose { position:absolute; top:4px; right:10px; width:25px; height:24px; overflow:hidden; background-position:0 -135px;}
+.pageConfirm .pageConfirmClose:hover  { background-position:-45px -135px;}
+.pageConfirm .pageConfirmCont { padding:20px 40px 10px;}
+.pageConfirm .pageConfirmBtns { padding:10px 10px 20px; text-align:center;}
+.pageConfirm .pageConfirmBtns .BtnsCancel { margin-left:10px;}
+.pageConfirm .confirmsWord { padding-left:38px;}
+.pageConfirm .attentions { position:absolute; left:40px; top:50px;}

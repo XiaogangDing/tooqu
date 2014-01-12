@@ -1,0 +1,77 @@
+@charset "utf-8";
+.loginForm .inputError,.loginForm .submit,.registerStep01 table .submit,.registerStep03 .uploadBtns,.cusImgSelectEdit .submitBtns input{ background-image:url(../images/loginicon.png); background-repeat:no-repeat;}
+/*loginSection*/
+.loginSection { padding:10px 60px 120px;}
+.loginSection .loginPics { width:480px;}
+.loginSection .loginForm { width:310px; height:290px; border:1px solid #e6e6e6; color:#666;}
+.loginSection .loginForm form { padding:6px 25px 0;}
+.loginSection .loginForm .topTips { height:29px; width:100%; overflow:hidden;}
+.loginSection .loginForm .inputError { display:block; padding-left:24px; line-height:32px; height:29px; overflow:hidden; background-position:0 0;}
+.loginSection .loginForm .inputError.hide { display:none;}
+.loginSection .loginForm .text { height:28px; width:244px; padding-left:10px; line-height:28px; background-color:#fff; border:1px solid #a3a3a3;}
+.loginSection .loginForm .attentionsIcon { position:relative; top:-4px; left:4px;}
+.loginSection .loginForm .fix .colorBlue { padding-right:10px;}
+.loginSection .loginForm .activePlugins { height:30px; line-height:30px; padding-bottom:4px;}
+.loginSection .loginForm .activePlugins .checkbox { position:relative; top:2px; margin:0 4px;}
+.loginSection .loginForm .submit { width:257px; height:36px; color:#fff; background-position:0 -38px;}
+
+/*registerSteps*/
+.registerSteps { width:778px; margin:40px auto 60px;}
+.registerSteps .registerStepsTitle { padding:8px 0 0 74px; line-height:48px; height:48px; overflow:hidden; background:url(../images/registertitlebg.jpg) left top no-repeat;}
+
+/*registerStep01*/ 
+.registerStep01 table th { font-weight:bold; padding-right:4px; text-align:right; vertical-align:top; line-height:40px;}
+.registerStep01 table .text{ width:186px; height:20px; line-height:18px; border:1px solid #7F9DB9;}
+.registerStep01 table .text:focus{ box-shadow:0 0 4px #7F9DB9;}
+.registerStep01 table label { margin-left:6px;}
+.registerStep01 table label .attentionsIcon { position:relative; top:1px;}
+.registerStep01 table .text.validate { width:5em; position:relative; top:-4px;}
+.registerStep01 table .yanZMChange { text-decoration:underline;}
+.registerStep01 table textarea.text{ width:496px; height:100px; padding:3px; resize:none;}
+.registerStep01 table .addtions { border-top:1px solid #d8d8d8; width:100%; text-align:left; text-indent:10px;}
+.registerStep01 table .text.addtionsWords{ position:relative; left:10px; width:574px; height:84px; overflow-y:auto;}
+.registerStep01 table .addtionsWords div { padding:10px; line-height:24px;}
+.registerStep01 table .submitBtns { width:564px; top:15px; padding:15px 0 0 10px;}
+.registerStep01 table .submitBtns .checkbox{ position:relative; top:2px;}
+.registerStep01 table .submit { width:79px; height:29px; cursor:pointer; background-position:right top;}
+
+/*registerStep03*/
+.registerStep03 .uploadBtns { display:inline-block; width:165px; height:49px; position:relative; overflow:hidden; background-position: 0 -83px; cursor:pointer;}
+.registerStep03 .file { position:absolute; top:0; right:0; font-size:50px; width:165px; height:49px; cursor:pointer; opacity:0; filter:alpha(opacity=0);}
+.registerStep03 .colorDGray { position:relative; left:10px; top:-16px; text-decoration:underline;}
+
+/*defaultPic*/
+.cusImgSelectEdit .defaultPic h4,.cusImgSelectEdit .resizePic h4 { line-height:40px;}
+.cusImgSelectEdit .fileBtns { width:100px; height:40px; position:relative; left:40px; overflow:hidden; width:100px;}
+.cusImgSelectEdit .fileBtns input { position:absolute; top:0; right:0; font-size:40px; opacity:0; filter:alpha(opacity=0);}
+.cusImgSelectEdit .resizePicCont { position:relative; margin-left:10px; padding-left:20px; border-left:1px solid #d8d8d8;}
+.cusImgSelectEdit .resizePicCont .frame{ border:1px solid #d8d8d8; margin-bottom:10px;}
+.cusImgSelectEdit .defaultPic p { font-size:12px;}
+.cusImgSelectEdit .defaultPic .checkbox { position:relative; top:2px; left:-2px;}
+.cusImgSelectEdit .submitBtns input { height:27px; width:67px; color:#333; background-position:right -38px; cursor:pointer;}
+.cusImgSelectEdit .resizePicCont span.colorDGray{ position:absolute; text-decoration:none;}
+.cusImgSelectEdit .resizePicCont .D216{left: 246px; top: 204px;}
+.cusImgSelectEdit .resizePicCont .D110{ top:326px; left:138px;}
+.cusImgSelectEdit .resizePicCont .D64{ top:400px; left:92px;}
+.cusImgSelectEdit .resizePicCont .D20{ top:432px; left:45px;}
+.cusImgSelectEdit .resizePicCont .imgselectTip { position:absolute; top:90px; left:-40px;}
+
+/*registerStep02*/
+.registerStep02 .red{ display:none; color:#ff0000; font-weight:bold; padding-right:10px; font-size:18px;}
+.registerStep02 .a-blue{ color:#076fa7; text-decoration:underline;}
+.registerStep02 .btn-next{ background:url(../images/btn-next.png) no-repeat; width:65px; height:25px; cursor:pointer;}
+.registerStep02 table th{ width:120px;}
+.registerStep02 table td{ color:#666;}
+.registerStep02 .input-text{ border:1px solid #7f9db9; color:#666; padding:2px 3px;}
+
+/*registerStep04*/
+.registerStep04 .mail-confirm-detail{font-size:14px; padding:47px 0 101px 88px; }
+.registerStep04 .mail-confirm-detail span,.mail-confirm-cont p span{color:#df3700;}
+.registerStep04 .mail-confirm-cont{ background:url(../images/mail-comfirm-bg.png) no-repeat; width:513px; height:102px; margin-left:35px; padding:48px 0 0 78px;}
+.registerStep04 .mail-confirm-cont p{ font-size:14px; line-height:24px;}
+
+/*registerStep05-注册成功*/
+.registerStep05 .reg-suc{ background:url(../images/btn-reg-suc.png) 0 0 no-repeat; padding-left:50px; line-height:38px; height:38px; margin:86px 0 20px 244px; font-weight:bold; font-size:14px;}
+.registerStep05 .back-home{ margin-left:294px;}
+.registerStep05 .back-home a{ color:#076fa7; text-decoration:underline; padding-right:10px;}
+ 
